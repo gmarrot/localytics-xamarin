@@ -19,7 +19,7 @@ namespace LocalyticsXamarin.Forms
 
 		public void onAppStart ()
 		{
-			Localytics.SessionTimeoutInterval = 10;
+			Localytics.SessionTimeoutInterval = 60;
 		}
 
 		public void SmokeTest() {
