@@ -20,6 +20,10 @@
                  <Button Text="Refresh" IsEnabled="true" Clicked="OnRefresh"  BorderWidth="2" BorderColor="Black"/>
 
                  <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Spacing="3">
+                     <Button Text="Generate Crash" IsEnabled="true" HorizontalOptions="FillAndExpand" Clicked="OnGenerateCrash" BorderWidth="2" BorderColor="Black"/>
+                 </StackLayout>
+
+                 <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Spacing="3">
                      <Button Text="Open Session" IsEnabled="true" HorizontalOptions="FillAndExpand" Clicked="OnOpenSession" BorderWidth="2" BorderColor="Black"/>
                      <Button Text="Close Session" IsEnabled="true" HorizontalOptions="FillAndExpand" Clicked="OnCloseSession"  BorderWidth="2" BorderColor="Black"/>
                      <Button Text="Upload" IsEnabled="true" HorizontalOptions="FillAndExpand" Clicked="OnUpload"  BorderWidth="2" BorderColor="Black"/>

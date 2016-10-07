@@ -63,6 +63,10 @@ namespace LocalyticsSample
 			});
 		}
 			
+		void OnGenerateCrash(object sender, EventArgs e) {
+			throw new Exception ("Crash generation");
+		}
+
 		void OnOpenSession(object sender, EventArgs e) {
 			DependencyService.Get<ILocalyticsXamarinForms> ().OpenSession ();
 		}
